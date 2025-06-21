@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @GPuntobit
 - 👀 I’m interested in AI (Ruby & Julia)
-- 🌱 I’m currently learning Full-Stack Dev (student)
+- 🌱 I’m currently learning Full-Stack Dev (student) - Refresh Academy
 - 💞️ I’m looking to collaborate on only my project (at the moment)
 - 📫 How to reach me gabriel.schipor@refresh-academy.org
 
