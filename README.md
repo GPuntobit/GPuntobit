@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @GPuntobit, I live in the metropolitan city of Bologna. 
-- 👀 I’m interested in gaming (CSharp) & IA developer (Ruby)
-- 🌱 I’m currently learning Full-Stack Web Developer (student) - Refresh Academy
+- 👀 I am interested in gaming development (CSharp) & AI (Ruby). 
+- 🌱 I’m currently learning Full-Stack Web Developer (student) - Refresh Academy. I have finished after 6 month the course... Started at the end of January! 
 - 💞️ I’m looking to collaborate on only my project (at the moment...)
 - 📫 How to reach me gabriel.schipor@outlook.it
 
