@@ -3,11 +3,14 @@
 - 📖 I'm learning now ProLog.
 - 🌱 I did Full-Stack Web Developer - Refresh Academy. Started at the end of January (2025)! 
 - 💞️ I’m looking to collaborate on stage for upgrade my skills. 
-- 📫 How to reach me gabriel.schipor@outlook.it
-
-
+- 📫 How to reach me linkedln: 
 
 <!---
 GPuntobit/GPuntobit is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
+
+---
+
+# DEMO
+
