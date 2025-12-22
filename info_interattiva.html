@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informazioni Interattive - Gabriel Schipor</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            margin-top: 20px;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        
+        .menu {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 20px 0;
+            justify-content: center;
+        }
+        
+        .btn {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background-color 0.3s;
+        }
+        
+        .btn:hover {
+            background-color: #2980b9;
+        }
+        
+        .btn-all {
+            background-color: #2ecc71;
+        }
+        
+        .btn-all:hover {
+            background-color: #27ae60;
+        }
+        
+        .btn-exit {
+            background-color: #e74c3c;
+        }
+        
+        .btn-exit:hover {
+            background-color: #c0392b;
+        }
+        
+        .info-box {
+            background-color: #f8f9fa;
+            border-left: 4px solid #3498db;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 0 5px 5px 0;
+            display: none;
+        }
+        
+        .active {
+            display: block;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #7f8c8d;
+            font-size: 12px;
+        }
+        
+        .emoji {
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Sistema Interattivo Informazioni</h1>
+        
+        <div class="menu">
+            <button class="btn" onclick="mostraInfo('presentazione')">Presentazione</button>
+            <button class="btn" onclick="mostraInfo('interessi')">Interessi</button>
+            <button class="btn" onclick="mostraInfo('studio')">Studio</button>
+            <button class="btn" onclick="mostraInfo('esperienze')">Esperienze</button>
+            <button class="btn" onclick="mostraInfo('collaborazioni')">Collaborazioni</button>
+            <button class="btn" onclick="mostraInfo('contatti')">Contatti</button>
+            <button class="btn btn-all" onclick="mostraInfo('tutto')">Tutte le Info</button>
+            <button class="btn btn-exit" onclick="nascondiTutto()">Nascondi</button>
+        </div>
+        
+        <div id="presentazione" class="info-box">
+            <h3><span class="emoji">👋</span>Presentazione Personale</h3>
+            <p>Ciao, sono <strong>@GPuntobit</strong></p>
+            <p>Vivo nella città metropolitana di <strong>Bologna</strong></p>
+        </div>
+        
+        <div id="interessi" class="info-box">
+            <h3><span class="emoji">👀</span>Interessi</h3>
+            <ul>
+                <li>Sviluppo di giochi (<em>CSharp</em>)</li>
+                <li>Progettazione web (<em>Ruby on Rails</em>)</li>
+                <li>Intelligenza Artificiale (<em>Ruby</em>)</li>
+            </ul>
+        </div>
+        
+        <div id="studio" class="info-box">
+            <h3><span class="emoji">📖</span>Attività di Studio</h3>
+            <p>Attualmente sto imparando <strong>ProLog</strong></p>
+        </div>
+        
+        <div id="esperienze" class="info-box">
+            <h3><span class="emoji">🌱</span>Esperienze Formative</h3>
+            <p>Ho completato il corso <strong>Full-Stack Web Developer</strong> presso <em>Refresh Academy</em></p>
+            <p>Il corso è iniziato alla fine di gennaio <strong>2025</strong></p>
+        </div>
+        
+        <div id="collaborazioni" class="info-box">
+            <h3><span class="emoji">💞</span>Collaborazioni</h3>
+            <p>Cerco collaborazioni attraverso stage per migliorare le mie competenze</p>
+        </div>
+        
+        <div id="contatti" class="info-box">
+            <h3><span class="emoji">📫</span>Contatti</h3>
+            <p>Puoi contattarmi tramite LinkedIn:</p>
+            <a href="https://www.linkedin.com/in/gabriel-schipor" target="_blank">www.linkedin.com/in/gabriel-schipor</a>
+        </div>
+        
+        <div id="tutto" class="info-box">
+            <h3><span class="emoji">📋</span>Tutte le Informazioni</h3>
+            <div id="all-info"></div>
+        </div>
+        
+        <div class="footer">
+            Sistema interattivo per visualizzare le informazioni personali
+        </div>
+    </div>
+
+    <script>
+        // Nascondi tutte le informazioni all'avvio
+        document.querySelectorAll('.info-box').forEach(box => {
+            box.classList.remove('active');
+        });
+        
+        function mostraInfo(id) {
+            // Nascondi tutti i box
+            document.querySelectorAll('.info-box').forEach(box => {
+                box.classList.remove('active');
+            });
+            
+            if (id === 'tutto') {
+                // Mostra tutte le informazioni
+                const allInfoDiv = document.getElementById('all-info');
+                allInfoDiv.innerHTML = `
+                    <div style="background-color: #f8f9fa; padding: 15px; border-radius: 5px; margin: 10px 0;">
+                        <h4 style="margin-top: 0; color: #2c3e50;"><span class="emoji">👋</span>Presentazione Personale</h4>
+                        <p>Ciao, sono <strong>@GPuntobit</strong></p>
+                        <p>Vivo nella città metropolitana di <strong>Bologna</strong></p>
+                        
+                        <h4 style="color: #2c3e50;"><span class="emoji">👀</span>Interessi</h4>
+                        <ul>
+                            <li>Sviluppo di giochi (<em>CSharp</em>)</li>
+                            <li>Progettazione web (<em>Ruby on Rails</em>)</li>
+                            <li>Intelligenza Artificiale (<em>Ruby</em>)</li>
+                        </ul>
+                        
+                        <h4 style="color: #2c3e50;"><span class="emoji">📖</span>Attività di Studio</h4>
+                        <p>Attualmente sto imparando <strong>ProLog</strong></p>
+                        
+                        <h4 style="color: #2c3e50;"><span class="emoji">🌱</span>Esperienze Formative</h4>
+                        <p>Ho completato il corso <strong>Full-Stack Web Developer</strong> presso <em>Refresh Academy</em></p>
+                        <p>Il corso è iniziato alla fine di gennaio <strong>2025</strong></p>
+                        
+                        <h4 style="color: #2c3e50;"><span class="emoji">💞</span>Collaborazioni</h4>
+                        <p>Cerco collaborazioni attraverso stage per migliorare le mie competenze</p>
+                        
+                        <h4 style="color: #2c3e50;"><span class="emoji">📫</span>Contatti</h4>
+                        <p>Puoi contattarmi tramite LinkedIn:</p>
+                        <a href="https://www.linkedin.com/in/gabriel-schipor" target="_blank">www.linkedin.com/in/gabriel-schipor</a>
+                    </div>
+                `;
+            }
+            
+            // Mostra solo quello richiesto
+            document.getElementById(id).classList.add('active');
+        }
+        
+        function nascondiTutto() {
+            document.querySelectorAll('.info-box').forEach(box => {
+                box.classList.remove('active');
+            });
+        }
+    </script>
+</body>
+</html>
