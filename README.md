@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @GPuntobit, I live in the metropolitan city of Bologna. 
-- 👀 I am interested in gaming development (CSharp), web design (Ruby on rails) & AI (Ruby).
-- 📖 I'm learning now ProLog.
+- 👀 I am interested in gaming development (Godot Engine), web design (Ruby on rails) & AI (Ruby).
+- 📖 I'm learning now ...
 - 🌱 I did Full-Stack Web Developer - Refresh Academy. Started at the end of January (2025)! 
 - 💞️ I’m looking to collaborate on stage for upgrade my skills. 
 - 📫 How to reach me, linkedin: www.linkedin.com/in/gabriel-schipor
