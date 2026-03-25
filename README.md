@@ -7,16 +7,6 @@
 
 https://gist.github.com/GPuntobit/e9eba80b400de2ff9f489868c956538c
 
-<DOCTYPE html>
-<html>
-    <head>
-        <title>Learn Ruby</title>
-    </head>
-    <body>
-        <h1>Ruby</h1>
-    </body>
-</html>
-
 <!---
 GPuntobit/GPuntobit is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
