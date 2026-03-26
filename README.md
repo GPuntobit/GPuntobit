@@ -5,8 +5,6 @@
 - 💞️ I’m looking to collaborate on stage for upgrade my skills. 
 - 📫 How to reach me, linkedin: www.linkedin.com/in/gabriel-schipor
 
-https://gist.github.com/GPuntobit/e9eba80b400de2ff9f489868c956538c
-
 ```ruby
 def sayhello(name)
   puts
