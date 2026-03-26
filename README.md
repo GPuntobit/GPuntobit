@@ -7,6 +7,16 @@
 
 https://gist.github.com/GPuntobit/e9eba80b400de2ff9f489868c956538c
 
+```ruby
+def sayhello(name)
+  puts
+  puts "This is the world of #{name}
+end
+
+print "Enter the name here: "
+sayhello(gets.chomp)
+```
+
 <!---
 GPuntobit/GPuntobit is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
