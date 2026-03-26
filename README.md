@@ -11,7 +11,7 @@ def sayhello(name)
   puts "This is the world of #{name}."
 end
 
-print "Enter the name here: "
+print "Enter your name here: "
 sayhello(gets.chomp)
 ```
 
