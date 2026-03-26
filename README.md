@@ -5,7 +5,7 @@
 - 💞️ I’m looking to collaborate on stage for upgrade my skills. 
 - 📫 How to reach me, linkedin: www.linkedin.com/in/gabriel-schipor
 
-```ruby
+```rb
 def sayhello(name)
   puts
   puts "This is the world of #{name}."
