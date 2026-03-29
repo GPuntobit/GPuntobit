@@ -5,8 +5,6 @@
 - 💞️ I’m looking to collaborate on stage for upgrade my skills. 
 - 📫 How to reach me, linkedin: www.linkedin.com/in/gabriel-schipor
 
-https://onecompiler.com/ruby/44hs5528v
-
 ```rb
 def sayhello(name)
   puts
@@ -16,6 +14,8 @@ end
 print "Enter your name here: "
 sayhello(gets.chomp)
 ```
+
+https://onecompiler.com/ruby/44hs5528v
 
 <!---
 GPuntobit/GPuntobit is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
