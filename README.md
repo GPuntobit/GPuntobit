@@ -5,6 +5,14 @@
 - 💞️ I’m looking to collaborate on stage for upgrade my skills. 
 - 📫 How to reach me, linkedin: www.linkedin.com/in/gabriel-schipor
 
+<iframe
+ frameBorder="0"
+ height="450px"
+ src="https://onecompiler.com/embed/ruby"
+ width="100%"
+ ></iframe>
+ 
+
 ```rb
 def sayhello(name)
   puts
