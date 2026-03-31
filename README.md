@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @GPuntobit.01, I live in Italy. 
 - 👀 I am interested in gaming development (Godot Engine), web design (Ruby on rails) & AI (Ruby).
-- 📖 I'm learning now Godot.
+- 📖 I'm learning now Ruby, find out more.
 - 🌱 I did Full-Stack Web Developer - Refresh Academy. Started at the end of January (2025)! 
 - 💞️ I’m looking to collaborate on stage for upgrade my skills. 
 - 📫 How to reach me, linkedin: www.linkedin.com/in/gabriel-schipor
