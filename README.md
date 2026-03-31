@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @GPuntobit.01, I live in the metropolitan city of Bologna. 
+- 👋 Hi, I’m @GPuntobit.01, I live in Italy. 
 - 👀 I am interested in gaming development (Godot Engine), web design (Ruby on rails) & AI (Ruby).
 - 📖 I'm learning now Godot.
 - 🌱 I did Full-Stack Web Developer - Refresh Academy. Started at the end of January (2025)! 
