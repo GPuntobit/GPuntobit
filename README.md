@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @GPuntobit.01, I live in Italy. 
-- 👀 I am interested in gaming development (Godot Engine), web design (Ruby on rails) & AI (Ruby).
+- 👀 I am interested in gaming development (Ruby), web design (Ruby on rails) & AI (ProLog).
 - 📖 I'm learning now Ruby, find out more.
 - 🌱 I did Full-Stack Web Developer - Refresh Academy. Started at the end of January (2025)! 
 - 💞️ I’m looking to collaborate on stage for upgrade my skills. 
