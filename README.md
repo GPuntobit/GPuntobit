@@ -15,7 +15,16 @@ print "Enter your name here: "
 sayhello(gets.chomp)
 ```
 
+## Video introduttivo
+
+![Video introduttivo Ruby](intro_ruby.gif)
+
+> Il video mostra il codice battuto a macchina e, alla fine, l'esecuzione del codice scritto in Ruby.  
+> [Guarda il video completo (MP4)](intro_ruby.mp4)
+
+
 https://onecompiler.com/ruby/4568pd8jz
+
 
 <!---
 GPuntobit/GPuntobit is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
