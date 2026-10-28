@@ -5,7 +5,7 @@
 - 💞️ I’m looking to collaborate on stage for upgrade my skills. 
 - 📫 How to reach me, linkedin: www.linkedin.com/in/gabriel-schipor
 
-## Video introduttivo
+## Ruby
 
 ![Video introduttivo Ruby](intro_ruby.gif)
 
