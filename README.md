@@ -13,9 +13,6 @@
 > [Guarda il video completo (MP4)](intro_ruby.mp4)
 
 
-https://onecompiler.com/ruby/4568pd8jz
-
-
 <!---
 GPuntobit/GPuntobit is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
