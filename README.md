@@ -9,6 +9,8 @@
 
 ![Video introduttivo Ruby](intro_ruby.gif)
 
+https://amzn.eu/d/021hKqOR
+
 
 <!---
 GPuntobit/GPuntobit is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
