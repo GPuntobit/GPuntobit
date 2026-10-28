@@ -9,9 +9,6 @@
 
 ![Video introduttivo Ruby](intro_ruby.gif)
 
-> Il video mostra il codice battuto a macchina e, alla fine, l'esecuzione del codice scritto in Ruby.  
-> [Guarda il video completo (MP4)](intro_ruby.mp4)
-
 
 <!---
 GPuntobit/GPuntobit is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
