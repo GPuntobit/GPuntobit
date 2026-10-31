@@ -7,7 +7,7 @@
 
 ## Ruby
 
-![Video introduttivo Ruby](https://github.com/user-attachments/assets/7755802b-fbbb-4ffe-b476-b1ef8d967f10)
+![Video introduttivo Ruby](//github.com/user-attachments/assets/7755802b-fbbb-4ffe-b476-b1ef8d967f10)
 
 
 
