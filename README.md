@@ -7,7 +7,9 @@
 
 ## Ruby
 
-![Video introduttivo Ruby](intro_ruby.gif)
+![Video introduttivo Ruby](https://github.com/user-attachments/assets/7755802b-fbbb-4ffe-b476-b1ef8d967f10)
+
+
 
 https://amzn.eu/d/021hKqOR
 
