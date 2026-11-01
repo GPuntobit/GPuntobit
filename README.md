@@ -9,7 +9,7 @@
 
 ## Ruby
 
-[Video introduction - Ruby](
+[Video introduction - Ruby]
 
 
 [Books - Italian Edition](https://amzn.eu/d/021hKqOR)
