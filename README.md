@@ -9,6 +9,16 @@
 
 ## Ruby
 
+```ruby
+def sayhello(name)
+    puts
+    puts "This is the world of #{name}."
+  end
+  
+  print "Enter your name here: "
+  sayhello(gets.chomp)
+```
+
 [Introduction Ruby](https://onecompiler.com/ruby/4568pd8jz)
 
 ## Books
