@@ -17,9 +17,10 @@ def sayhello(name)
   
   print "Enter your name here: "
   sayhello(gets.chomp)
+# test this code here 👇👇👇
 ```
 
-[Test Ruby Here](https://onecompiler.com/ruby/4568pd8jz)
+[Test Ruby](https://onecompiler.com/ruby/4568pd8jz)
 
 ## Books
 
