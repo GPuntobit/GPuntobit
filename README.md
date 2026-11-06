@@ -9,7 +9,7 @@
 
 ## Ruby
 
-[Video introduction - Ruby]
+[Introduction Ruby](https://onecompiler.com/ruby/4568pd8jz)
 
 
 [Books - Italian Edition](https://amzn.eu/d/021hKqOR)
